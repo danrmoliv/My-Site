@@ -33,14 +33,14 @@ div.bottom-container {}
 
 h1 {
   /* 100% = 16px = 1em = 1rem (ignora parents)*/
-  font-size: 5.625rem;
+  font-size: 4rem;
   margin: 50px auto 0px auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Poor-Story', cursive;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: normal;
 }
 
@@ -89,7 +89,7 @@ img.top-cloud {
 
 img.data-processing {
   position: absolute;
-  right: 500px;
+  right: 300px;
   top: 50px;
   height: 100px;
   width: 100px;
