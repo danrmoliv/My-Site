@@ -8,29 +8,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-div.top-container {
-  background-color: #DEF5E5;
-  position: relative;
-  padding-top: 100px;
-}
-
-
-div.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 1.5;
-}
-
-div.profile{
-  position: relative;
-  text-align: center;
-}
-
-div.middle-container {}
-
-div.bottom-container {}
-
 h1 {
   /* 100% = 16px = 1em = 1rem (ignora parents)*/
   font-size: 4rem;
@@ -58,6 +35,41 @@ hr {
   width: 5%;
   margin: 50px auto auto auto;
 }
+
+p {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin-inline-start: 15em;
+  margin-inline-end: 15em;
+}
+
+
+div.top-container {
+  background-color: #DEF5E5;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+div.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+div.profile{
+  position: relative;
+  text-align: center;
+}
+
+div.middle-container {}
+
+div.bottom-container {}
+
 
 iframe.detective-pikachu {
   height: 50%;
@@ -122,14 +134,4 @@ img.data-science-skill {
 p.my-job{
   position: relative;
   display: inline-block;
-}
-
-p {
-  font-family: "Arial", sans-serif;
-  line-height: 1.5;
-  text-align: center;
-  position: relative;
-  display: block;
-  margin-inline-start: 15em;
-  margin-inline-end: 15em;
 }
